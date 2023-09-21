@@ -17,8 +17,15 @@ footer {
 /*somente ul*/
 .rodape {
     list-style: none;
-}
 .Rio-Branco {
     display: flex;
-    justify-content: ;
+    justify-content: center; /* Centralize as imagens horizontalmente */
+    align-items: center;     /* Centralize as imagens verticalmente */
+    
+}
+.imagem-praca {
+    width: auto;            /* Mantenha a largura original */
+    height: 200px;          /* Defina uma altura fixa */
+    object-fit: contain;    /* Garante que as imagens não sejam cortadas ou distorcidas */
+    
 }
