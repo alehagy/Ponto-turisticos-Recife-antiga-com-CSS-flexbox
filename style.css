@@ -17,9 +17,10 @@ footer {
 /*somente ul*/
 .rodape {
     list-style: none;
+}
 .Rio-Branco {
     display: flex;
-    justify-content: center; /* Centralize as imagens horizontalmente */
+    justify-content: space-around; /* Centralize as imagens horizontalmente */
     align-items: center;     /* Centralize as imagens verticalmente */
     
 }
